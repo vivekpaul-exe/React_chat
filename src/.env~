@@ -1,0 +1,7 @@
+REACT_APP_FIREBASE_API_KEY             = "AIzaSyCUD8airOAq3f1S_Q_KxxowZLxOXWw5tAQ"
+REACT_APP_FIREBASE_AUTH_DOMAIN         = "newagent-d7fbd.firebaseapp.com"
+REACT_APP_FIREBASE_DATABASE_URL        = "https://newagent-d7fbd.firebaseio.com"
+REACT_APP_FIREBASE_PROJECT_ID          = "newagent-d7fbd"
+REACT_APP_FIREBASE_STORAGE_BUCKET      = "newagent-d7fbd.appspot.com"
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID = "780361236560"
+REACT_APP_FIREBASE_APP_ID              = "1:780361236560:web:3c768f501b17bad2421155"

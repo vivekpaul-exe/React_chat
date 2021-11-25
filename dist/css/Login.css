@@ -1,0 +1,44 @@
+body {
+  background: #272727;
+  font-weight: 700;
+}
+
+body {
+  background-color: whitesmoke;
+  color: #272727;
+}
+
+div#authPaper {
+  background: #fff;
+  color: #272727;
+}
+
+form {
+  max-width: 24rem;
+  margin: auto;
+}
+
+.form-group {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  width: inherit;
+}
+
+.MuiFormControl-root.MuiTextField-root.Nick {
+  padding-bottom: 2rem;
+  width: -webkit-fill-available;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+button.MuiButtonBase-root.MuiButton-root {
+  margin: auto;
+}
+
+button.MuiButtonBase-root.MuiButton-root.Sub {
+  background-color: black;
+}
+/*# sourceMappingURL=Login.css.map */

@@ -1,0 +1,54 @@
+body {
+  background: #272727;
+  font-weight: 700;
+}
+
+.modal {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 17rem;
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  background-color: whitesmoke !important;
+  border-radius: 2rem;
+}
+
+.paper {
+  opacity: 1;
+  z-index: 1500;
+  height: 19rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 2rem;
+  -webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.form.auth_form {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.MuiFormControl-root.MuiTextField-root.email {
+  padding-bottom: 1rem;
+}
+
+.MuiFormControl-root.MuiTextField-root.pass {
+  padding-bottom: 1rem;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.google_login.MuiButton-outlinedPrimary {
+  margin: 0 auto 0 auto;
+  color: #f50057 !important;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.Login.MuiButton-outlinedSecondary {
+  margin: 0 auto 0 auto;
+  color: #3f51b5 !important;
+}
+/*# sourceMappingURL=modal.css.map */

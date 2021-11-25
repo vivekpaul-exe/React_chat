@@ -1,0 +1,26 @@
+div#main {
+  background-color: whitesmoke;
+  font-family: 'Signika', sans-serif;
+}
+
+div#maincontainer {
+  background-color: whitesmoke;
+}
+
+div#paper_container {
+  height: inherit;
+  background-color: #fff;
+}
+
+.list-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 1rem;
+  border-radius: .25rem;
+}
+/*# sourceMappingURL=RoomList.css.map */
