@@ -10,11 +10,11 @@ import {MessageBox} from "react-chat-elements"
 // import Me,ssageList from '../assets/components/MessageList'
 import { useStyles } from "./styles"
 import {
-    Form,
-    InputGroup,
-    InputGroupAddon
+    Form
+   
 } from 'reactstrap';
-import {Container , TextField , IconButton, 
+
+import {Container , IconButton, 
     Grid,
         AppBar , 
         Toolbar ,
@@ -24,14 +24,15 @@ import {Container , TextField , IconButton,
     InputAdornment} from "@material-ui/core"
 
 import Moment from 'moment';
-import TimeAgo from 'timeago-react';
+
 import EmojiEmotionsIcon from '@material-ui/icons/EmojiEmotions';
 import firebase from '../Firebase';
 import ScrollToBottom from 'react-scroll-to-bottom';
 import '../Styles.css';
 import PeaIcon from '../containers/PeaIcon';
-import MenuIcon from '@material-ui/icons/Menu';
+
 import AttachFileRoundedIcon from '@material-ui/icons/AttachFileRounded';
+import AvPopover from '../containers/Popover/Popover';
 
 function ChatRoom() {
     const [chats, setChats] = useState([]);
@@ -154,6 +155,7 @@ function ChatRoom() {
                 <Typography variant="h4" className={classes.title}>
                   #chats
                 </Typography>
+                <AvPopover/>
                 <Button color="inherit">Login</Button>
               </Toolbar>
             </AppBar>

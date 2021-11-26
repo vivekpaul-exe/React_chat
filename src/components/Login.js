@@ -10,7 +10,7 @@ import {
     Input
 } from 'reactstrap';
 import MenuAppBar from '../containers/AppBar';
-import firebase,{database} from 'firebase';
+import firebase from 'firebase';
 
 
 function Login() {

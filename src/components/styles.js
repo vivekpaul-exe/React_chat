@@ -26,8 +26,9 @@ menuButton: {
   },
   title: {
     flexGrow: 1,
-    fontFamily:"Fredoka One",
-    fontSize: 20,
+    
+    fontSize: 35,
+    fontFamily: 'Fredoka One',
   },
   icon: {
     width: 24,
